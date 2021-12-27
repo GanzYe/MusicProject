@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:minWidth="256dp"
+    android:minHeight="128dp"
+    android:resizeMode="none"
+    android:updatePeriodMillis="3600000"
+    android:description="@string/music_widget_description"
+    android:initialLayout="@layout/widget_music"
+    android:previewImage="@drawable/ic_pause"
+    android:widgetCategory="home_screen"
+    />

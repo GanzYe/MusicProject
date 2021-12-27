@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MusicProject</string>
+    <string name="music_notif_channel_name">Музыкальные уведомления</string>
+    <string name="music_notif_channel_desc">Канал для уведомлений плеера</string>
+    <string name="pause">Пауза</string>
+    <string name="play">Возобновить</string>
+    <string name="stop">Остановить</string>
+    <string name="add_track">Добавить</string>
+    <string name="music_widget_description">Виджет для управление воспроизведение</string>
+    <string name="no_items_in_list">нету в списке</string>
+</resources>

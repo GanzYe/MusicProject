@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="256dp"
+    android:layout_height="150dp"
+    android:background="@color/purple_500"
+    android:padding="15dp"
+    android:gravity="center">
+
+    <TextView android:id="@id/text_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:lines="1"
+        android:maxLines="1"
+        android:textColor="@color/white"
+        android:textSize="16sp"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <ImageView android:id="@+id/button_skip_previous"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:src="@drawable/ic_skip_white"
+            android:rotation="180"
+            android:layout_gravity="start"/>
+
+        <ImageView android:id="@+id/button_play_pause"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:src="@drawable/selector_play_pause_white"
+            android:layout_gravity="center"/>
+
+        <ImageView android:id="@+id/button_skip_next"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:src="@drawable/ic_skip_white"
+            android:layout_gravity="end"/>
+    </FrameLayout>
+
+    <ListView android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp" />
+
+
+    <TextView android:id="@+id/text_list_empty"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="@string/no_items_in_list"
+        android:background="@color/white"/>
+</LinearLayout>
